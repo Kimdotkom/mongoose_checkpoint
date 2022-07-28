@@ -27,3 +27,4 @@ app.listen(PORT, (err)=>{
 
 //import router express
 app.use ('/api/person', require('./routes/personRoute'))
+app.use ('/api/user', require('./routes/userRoute'))
